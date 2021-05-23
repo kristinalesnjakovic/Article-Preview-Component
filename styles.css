@@ -44,7 +44,9 @@ a:hover {
 .main-img img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  max-width: 100%;
+  object-fit: cover; 
+  height: 100%;
+  width: 100%;
 }
 
 .content-card {
@@ -182,8 +184,6 @@ footer p {
 .main-img img {
   border-top-right-radius: 0;
   border-bottom-left-radius: 10px;
-  max-height: 280px;
-  max-width: fit-content;
 }
 
 .content-card {
